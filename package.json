@@ -1,0 +1,22 @@
+{
+  "name": "exp_movies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryuzuky07/exp_movies.git"
+  },
+  "author": "Ryuzuky07",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryuzuky07/exp_movies/issues"
+  },
+  "homepage": "https://github.com/Ryuzuky07/exp_movies#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
