@@ -10,7 +10,7 @@ app.get('/home', (req, res) => {
 
 app.get('/home/movies/', (req, res) => {
     console.log(__dirname)
-  res.sendFile(path.join('D:/Github/exp_movies/HTML/movies.html'))
+  res.sendFile(path.join('D:/Github/exp_movies/HTML/movies_1.html'))
 })
 
 app.listen(port, () => {
