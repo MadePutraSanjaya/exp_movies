@@ -16,9 +16,10 @@ body{
 
 
 /* MOVIE */
-.garis{
+.movie{
+}
+.hr{
    border-bottom: 2px solid black;
-   width: 80px;
-   height: px;
+   scroll-padding-block-start: ;
 }
  
