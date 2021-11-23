@@ -1,0 +1,125 @@
+
+
+/* Body */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; 
+}
+body{
+   line-height: 1.8;
+   min-height: 100vh;
+}
+
+/* Navbar */
+.navbar{
+   background-color: white;
+   padding: 1% 0 0;
+   box-shadow: 0 0 5px;
+    
+}
+.inner-main-nav{
+   max-width: 100%;
+   margin: auto;
+}
+.inner-main-nav ul{
+   text-align: right;
+   margin: 0 5%;
+   padding: 3.5% 0;
+}
+.inner-main-nav ul li{
+   float: none;
+   display: inline-block;
+}
+.inner-main-nav ul li:nth-child(1), .inner-main-nav ul li:nth-child(2)
+{
+float: left;
+}
+.inner-main-nav ul li a {
+   margin: 0 60px;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+}
+.logo{
+   width: 30%;
+   height: 40%;
+   position: absolute;
+   left: 35%;
+}
+
+
+/* toggle */
+html {  
+   transition: 0.4s;      
+}
+
+.dark-mode {                
+   background-color: black;
+   color: white;
+}
+
+.toggle {
+   width: 45px;
+   height: 25px;
+   border-radius: 30px;
+   font-size: 16px;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   cursor: pointer;
+   background: black;
+   color: white;
+}
+
+.circle {
+   width: 20px;
+   height: 20px;
+   transform: translateX(2px);
+   border-radius: 30px;
+   transition: 0.4s;
+   position: absolute;
+   background: white;
+}
+
+.dark-mode .circle {
+   transform: translateX(23px)
+}
+
+.toggle-moon, .toggle-sun {
+   width: 50%;
+}
+.dark-mode .circle {
+    transform: translateX(23px)
+}
+
+/* carousel */
+.slider{
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   overflow: hidden;
+   justify-content: center;
+   align-items: center;
+}
+.slides{
+   display: flex;
+   width: 500%;
+   height: 500px;
+   
+}
+.slides input {
+   display: none;
+}
+.slide {
+   width: ;
+}
+
+/* MOVIE */
+.garis{
+   border-bottom: 2px solid;
+   width: 80px;
+   height: px;
+}
+ 

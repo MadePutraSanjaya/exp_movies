@@ -1,0 +1,60 @@
+
+
+/* Body */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; 
+}
+body{
+   line-height: 1.8;
+   min-height: 100vh;
+}
+
+/* Navbar */
+.navbar{
+   background-color: white;
+   padding: 1% 0 0;
+   box-shadow: 0 0 0 10px;
+
+
+    
+}
+.inner-main-nav{
+   max-width: 100%;
+   margin: auto;
+}
+.inner-main-nav ul{
+   text-align: right;
+   margin: 0 5%;
+   padding: 5% 0;
+}
+.inner-main-nav ul li{
+   float: none;
+   display: inline-block;
+}
+.inner-main-nav ul li:nth-child(1), .inner-main-nav ul li:nth-child(2)
+{
+float: left;
+}
+.inner-main-nav ul li a {
+   margin: 0 30px;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+}
+.logo{
+   width: 30%;
+   height: 40%;
+   position: absolute;
+   left: 33%;
+}
+
+/* MOVIE */
+.garis{
+   border-bottom: 2px solid black;
+   width: 80px;
+   height: px;
+}
+ 

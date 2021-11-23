@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/movie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d6e78495c8.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+
+</head>
+<body>
+        <nav class="navbar">
+
+            <div class="logo">
+                <img class="logo" src="/Image/blackLogoexp.png" alt="">
+            </div>
+            <div class="inner-main-nav">
+                <ul>
+                    <li><a href="">Movies</a></li>
+                    <li><a href="">Tv-Series</a></li>
+                    <li><a href="">Genre</a></li> 
+                    <li><div class="toggle"> <!--Untuk latar belakang-->
+                        <div class="circle"></div> <!--Icon lingkaran-->
+                        <div class="toggle-moon"><i class="fas fa-moon"></i></div> <!--Icon bulan-->
+                        <div class="toggle-sun"><i class="fas fa-sun"></i></div> <!--Icon matahari-->
+                    </div></li> 
+                    <li><a href=""><i class="fa fa-search"></i></a></li> 
+
+                </ul>
+            </div>
+        </nav>
+
+        <!-- carousel -->
+        <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+                <li data-target="#video-carousel-example2" data-slide-to="1"></li>
+                <li data-target="#video-carousel-example2" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+    
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <!--First slide-->
+                <div class="carousel-item active">
+                    <!--Mask color-->
+                    <div class="view hm-black-light">
+    
+                        <!--Video source-->
+                        <video class="video-full" autoplay loop>
+                            <source src="https://mdbootstrap.com/images/video/Strum-Away.mp4" type="video/mp4" />
+                        </video>
+                        <div class="full-bg-img"></div>
+                    </div>
+    
+                    <!--Caption-->
+                    <div class="carousel-caption">
+                        <div class="flex-center animated fadeInDown">
+                            <ul>
+                                <li>
+                                    <h1 class="h1-responsive">Material Design for Bootstrap 4</h1></li>
+                                <li>
+                                    <p>The most powerful and free UI KIT for Bootstrap</p>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg">Sign up!</a>
+                                    <a target="_blank" href="https://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-default btn-lg">Learn more</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Caption-->
+                </div>
+                <!--/First slide-->
+    
+                <!--Second slide-->
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view hm-black-light">
+                        <!--Video source-->
+                        <video class="video-full" autoplay loop>
+                            <source src="https://mdbootstrap.com/images/video/Beach-Ball.mp4" type="video/mp4" />
+                        </video>
+                        <div class="mask"></div>
+                    </div>
+    
+                    <!--Caption-->
+                    <div class="carousel-caption">
+                        <div class="flex-center animated fadeInDown">
+                            <ul>
+                                <li>
+                                    <h1 class="h1-responsive">Lots of tutorials at your disposal</h1>
+                                </li>
+                                <li>
+                                    <p>And all of them are FREE!</p>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-primary btn-lg">Start learning</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/.Caption-->
+                </div>
+                <!--/Second slide-->
+    
+                <!--Third slide-->
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view hm-black-strong">
+                        <!--Video source-->
+                        <video class="video-full" autoplay loop>
+                            <source src="https://mdbootstrap.com/images/video/Nature-Sunset.mp4" type="video/mp4" />
+                        </video>
+                        <div class="mask"></div>
+                    </div>
+    
+                    <!--Caption-->
+                    <div class="carousel-caption">
+                        <div class="flex-center animated fadeInDown">
+                            <ul>
+                                <li>
+                                    <h1 class="h1-responsive">Visit our support forum</h1></li>
+                                <li>
+                                    <p>Our community can help you with any question</p>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://mdbootstrap.com/forums/forum/support/" class="btn btn-default btn-lg">Support forum</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/.Caption-->
+                </div>
+                <!--/Third slide-->
+            </div>
+            <!--/.Slides-->
+    
+            
+
+    <div class="container">
+        <h2 class="movie">MOVIES LIST</h2>
+        <div class="garis"></div>
+    </div>
+
+
+
+
+    <script src="/JS/darkmode.js"></script>
+</body>
+</html>
