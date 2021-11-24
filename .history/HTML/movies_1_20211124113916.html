@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/movie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d6e78495c8.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+
+</head>
+<body>
+        <nav class="navbar">
+
+            <div class="logo">
+                <img class="logo" src="/Image/blackLogoexp.png" alt="">
+            </div>
+            <div class="inner-main-nav">
+                <ul>
+                    <li><a href="">Movies</a></li>
+                    <li><a href="">Tv-Series</a></li>
+                    <li><a href="">Genre</a></li> 
+                    <li><div class="toggle"> <!--Untuk latar belakang-->
+                        <div class="circle"></div> <!--Icon lingkaran-->
+                        <div class="toggle-moon"><i class="fas fa-moon"></i></div> <!--Icon bulan-->
+                        <div class="toggle-sun"><i class="fas fa-sun"></i></div> <!--Icon matahari-->
+                    </div></li> 
+                    <li><a href=""><i class="fa fa-search"></i></a></li> 
+                    
+                </ul>
+            </div>
+        </nav>
+        
+        <section id="carousel">
+
+            <!-- carousel -->
+            <div class="slider">
+                <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                
+                <div class="slide first">
+                    <img class="img" src="https://i.ytimg.com/vi/mjCwJz5DiWQ/maxresdefault.jpg" alt="">
+                    <div class="info">
+                        <h2>Slide 1</h2>
+                        <p>lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img class="img" src="https://i.ytimg.com/vi/mjCwJz5DiWQ/maxresdefault.jpg" alt="">
+                    <div class="info">
+                        <h2>Slide 2</h2>
+                        <p>lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img class="img" src="https://i.ytimg.com/vi/mjCwJz5DiWQ/maxresdefault.jpg" alt="">
+                    <div class="info">
+                        <h2>Slide 3</h2>
+                        <p>lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                
+                <div class="navigator">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+                <div class="manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+        <div class="container">
+            <h2 class="movie">MOVIES LIST</h2>
+            <div class="garis"></div>
+        </div>
+        
+        
+        
+
+    <script src="/JS/darkmode.js"></script>
+    <script src="/JS/carousel.js"></script>
+</body>
+</html>
